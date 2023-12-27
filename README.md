@@ -1,2 +1,2 @@
 # demo-gamehub
-A RAWG.io react clone
+A minimal RAWG.io clone made in React that uses RAWG api.
