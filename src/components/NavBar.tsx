@@ -1,5 +1,6 @@
-import { HStack, Image, Text } from '@chakra-ui/react';
+import { HStack, Image } from '@chakra-ui/react';
 import logo from '../assets/icon.png';
+import ColorModeSwitch from './ColorModeSwitch';
 
 function NavBar() {
 	return (
@@ -10,7 +11,7 @@ function NavBar() {
 				borderRadius='10px'
 				margin='10px'
 			></Image>
-			<Text>NavBar</Text>
+			<ColorModeSwitch />
 		</HStack>
 	);
 }
