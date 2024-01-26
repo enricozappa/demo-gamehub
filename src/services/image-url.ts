@@ -1,5 +1,7 @@
 // Adds a crop parameter to image url
 function getCroppedImageUrl(url: string) {
+	if (!url) return '';
+
 	const target = 'media/';
 	const index = url.indexOf(target) + target.length;
 
