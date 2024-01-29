@@ -1,6 +1,8 @@
 // Adds a crop parameter to image url
+import noImage from '../assets/no-image-placeholder-6f3882e0.webp';
+
 function getCroppedImageUrl(url: string) {
-	if (!url) return '';
+	if (!url) return noImage;
 
 	const target = 'media/';
 	const index = url.indexOf(target) + target.length;
