@@ -8,5 +8,9 @@ A minimal RAWG.io clone made in React that uses RAWG api, built using:
 - [Chakra UI](https://chakra-ui.com/) - modular UI component library for React
 - [Framer Motion](https://www.framer.com/motion/) - react library for animation and motion graphics
 - [Axios](https://www.npmjs.com/package/axios) - JavaScript library for making HTTP requests
+- [Firebase](https://firebase.google.com/) - An app development platform backed by Google
 
-This project was developed following the [React for Beginners](https://codewithmosh.com/p/ultimate-react-part1) tutorial, making also some changes and personalizations.
+This project was developed following the [React for Beginners](https://codewithmosh.com/p/ultimate-react-part1) tutorial, making also some changes and personalizations. 
+
+Watch the [demo here](https://rawg-clone-gamehub-demo.web.app)
+
